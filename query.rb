@@ -69,15 +69,7 @@ class TeamSpeak3Query
       channels[cid.to_i] = channel
     end
     
-    channels
-    
-    # p request('channellist')
-    # request('channellist').split('|').map { |ch|
-    #   t = ch.split
-    #   cid = t.shift.split('=').last.to_i
-    #   channel = t.map{|inf| info.split('=', 2)}.to_h
-    #   [cid, channel]
-    # }.to_h
+    return channels
   end
   
   private

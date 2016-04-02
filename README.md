@@ -6,7 +6,7 @@ change specific channel's quality and codec based on user count periodically.
 
 # Future updates
 * multiple channel support
-* external configulation file
+* external configuration file
 
 # License
 MIT License
